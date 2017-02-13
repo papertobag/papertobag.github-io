@@ -156,12 +156,12 @@ p {
 
 
 .center h2{
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 10px;
-  text-align:center;
-  color:#000;
-  text-transform:uppercase;
+	font-size: 40px;
+	margin-top: 0;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #FFEB3B;
+	text-transform: uppercase;
 }
 
 #portfolio .lead {
@@ -429,9 +429,10 @@ a.accordion-toggle  i{
 }
 
 #features {
-	margin-top:50px;
-	padding:50px;
-	text-align:center;
+	margin-top: 50px;
+	padding: 50px;
+	text-align: center;
+	color: #FFEB3B;
 }
 
 #features .lead {
@@ -700,4 +701,12 @@ body {
 	height: 300%;
 	padding: 15px;
 	width: auto;
+}
+
+.navbar-brand {
+	width: auto;
+	transform: translateX(-50%);
+	left: 50%;
+	position: absolute;
+	height: 40px;
 }
